@@ -1,12 +1,18 @@
 # LinkedIn_social_media
-a social media app with chat box and news feed.
+### A social media app with chat box and news feed.
+<hr />
+This is a simple app in <b>flask</b>. <b>Html,css,bootstrap and javascript for front end and mysql for backend.</b> 
+<br />
+To run this project, first create all tables from <b>Database/tables.txt</b>.<br /> 
+Add admin from  <b>defaultData.txt</b>.
+Then change <b>config.py</b> according to your database <b><i>host,user,password and database.</i></b> <br />
+Also change the <b>'UPLOAD_PATH'</b> value in app.py to the path where <b>"<this_project_location>/static/images".</b> <br />
+Change <b><this_project_location></b> to your project location which would be like C://Program Files or D://Projects in windows case.
 
-This is a simple app in flask. Html,css,bootstrap and javascript for front end and mysql for backend.
-To run this project, first create all tables from Database/tables.txt. Add admin from defaultData.txt.
-Then change config.py according to you database host,user,password and database.
-Than also change the 'UPLOAD_PATH' value in app.py to the path where "this_project_location/static/images"
+Then install <b>Flask-socketio.</b><br />
+Then run command in terminal 
+#### "pip install -r requirements.txt" 
+or 
+#### "pip3 install -r requirements.txt"
 
-Then install Flask-socketio.
-Then run command in terminal "pip install -r requirements.txt" or "pip3 install -r requirements.txt"
-
-Then u can finally run the project.
+finally u can run the project.
